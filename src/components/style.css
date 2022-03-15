@@ -1,0 +1,103 @@
+:root {
+    --bodyColor: #93c5fd;
+    --navFooterColor: #f0f9ff;
+    --cardColor: #cffafe;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+
+/*##################################################
+    NAVIGATION
+*/
+
+.navDiv {
+    width: 100%;
+    min-height: 15vh;
+    top: 0;
+    position: relative;
+
+    display: flex;
+    justify-content: space-around;
+    
+    font-family: 'Neucha', sans-serif;
+    font-size: 1rem;
+    background-color: var(--navFooterColor);
+}
+
+.navTitle {
+    font-size: 1.8rem;
+}
+
+.navP, .scoring > p{
+    font-size: 1.2rem;
+}
+
+
+/*###################################################  
+    MAIN SECTION
+*/
+.appBody {
+    min-width: 100vw;
+    min-height: 80vh;
+    position: relative;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-bottom: 50px;
+}
+
+.card {
+    margin: 20px;
+    border-radius: 20px;
+
+    background-color: var(--cardColor);
+    display: flex;
+    flex-direction: column;
+}
+
+.animate {
+    animation: shake 0.5s;
+}
+
+.imgContainer > img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 210px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+/*###################################################  
+    FOOTER
+*/
+
+.footer {
+    width: 100%;
+    min-height: 5vh;
+    bottom: 0;
+    position: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--navFooterColor);
+}
+
+a > img {
+    width: 32px;
+    height: 32px;
+}
+
+a > img:hover {
+    transform: scale(1.02);
+}

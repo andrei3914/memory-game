@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "clicked" : false,
+        "name": "V",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCnbubTZwdgrpLIJkT5-_kE7Qlo9NX3MLXdw&usqp=CAU",
+        "movie": "V for Vendetta"
+    },
+      {
+        "id": 2,
+        "clicked" : false,
+        "name": "Tyler Durden",
+        "image": "https://cdn.vox-cdn.com/thumbor/QezEhuEfRUfWSj91fHVCq6jCUsY=/0x2:1019x681/1200x800/filters:focal(0x2:1019x681)/cdn.vox-cdn.com/uploads/chorus_image/image/46336178/fightclub_still_1020.0.0.jpg",
+        "movie": "Fight Club"
+    },
+      {
+        "id": 3,
+        "clicked" : false,
+        "name": "Johnny",
+        "image": "https://imgix.pedestrian.tv/content/uploads/2018/09/The-Room.jpg?ar=16%3A9&auto=format&crop=focal&fit=crop&q=80&w=1200&nrs=40",
+        "movie": "The Room"
+      },
+      {
+        "id": 4,
+        "clicked" : false,
+        "name": "Batman",
+        "image": "https://cdn.vox-cdn.com/thumbor/Kr_zFMNcZmn28_TBF-8YYlhD9gw=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/11694967/0_c9S8ajFBpwX89ZuU.jpeg",
+        "movie": "The Dark Knight"
+      },
+      {
+        "id": 5,
+        "clicked" : false,
+        "name": "Ripley",
+        "image": "https://static1.srcdn.com/wordpress/wp-content/uploads/2021/03/Aliens-Sigourney-Weaver.jpg",
+        "movie": "Alien"
+      },
+      {
+        "id": 6,
+        "clicked" : false,
+        "name": "Kikuchiyo",
+        "image": "https://m.media-amazon.com/images/M/MV5BMTM3NzE2MzEyNF5BMl5BanBnXkFtZTcwNzA5MTU4Mw@@._V1_.jpg",
+        "movie": "Seven Samurai"
+      },
+      {
+        "id": 7,
+        "clicked" : false,
+        "name": "Lester Burnham",
+        "image": "https://i.pinimg.com/736x/83/a3/3b/83a33bc4d1ff10762564d5d46adf312d--kevin-spacey-burnham.jpg",
+        "movie": "American Beauty"
+      },
+      {
+        "id": 8,
+        "clicked" : false,
+        "name": "Dae-su Oh",
+        "image": "https://preview.redd.it/pk8uklkj6y801.jpg?auto=webp&s=391ab2edbc7dcd6ae8c8de6350134b0e4bb4c188",
+        "movie": "Oldboy"    
+    },
+      {
+        "id": 9,
+        "clicked" : false,
+        "name": "Tony Montana",
+        "image": "https://miro.medium.com/max/1400/0*gUSgn4duIQ5DH1P3.jpg",
+        "movie": "Scarface"
+    },
+      {
+        "id": 10,
+        "clicked" : false,
+        "name": "Sugar Kane",
+        "image": "http://images2.fanpop.com/images/quiz/209000/209782_1242236488190_500_295.jpg",
+        "movie": "Some like it hot"
+    },
+      {
+        "id": 11,
+        "clicked" : false,
+        "name": "Black Mamba",
+        "image": "https://static.cinemagia.ro/img/db/movie/00/48/87/kill-bill-vol-1-313885l.jpg?ts=1447677170",
+        "movie": "Kill Bill"
+       },
+      {
+        "id": 12,
+        "clicked" : false,
+        "name": "Maggie Fitzgerald",
+        "image": "https://ibirch99.files.wordpress.com/2015/03/004mdb_hilary_swank_111.jpg",
+        "movie": "Million Dollar Baby"
+      }
+      
+]
