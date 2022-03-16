@@ -17,7 +17,18 @@ function App() {
   }
 
   const handleScore = (id: number) => {
-    
+    chars.forEach(char => {
+      if (id === char.id && char.clicked === false) {
+        char.clicked = true;
+        setClicked(true);
+        increment();
+      } else if (id === char.id && char.clicked === true) {
+        currentScore > highScore ? setHighScore(currentScore) : setHighScore(highScore);
+        setCurrentScore(0);
+        setClicked(true);
+        chars.forEach(char => char.clicked = false);
+      }
+    })
   } 
 
   const shuffleArray = () => {

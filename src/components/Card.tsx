@@ -9,9 +9,12 @@ interface Props {
     handleClick: (id: number) => void
 }
 
-const Card: React.FC<Props> = ({ clicked, id, name, movie, image}) => {
+const Card: React.FC<Props> = ({ clicked, id, name, movie, image, handleClick}) => {
   return (
-    <div className={"card" + (clicked === true ? 'animate' : '')}>
+    <div 
+        className="card"
+        onClick={() => handleClick(id)}
+        >
         <div className='imgContainer'>
             <img src={image} alt="" />
         </div>

@@ -55,8 +55,8 @@
     flex-direction: column;
 }
 
-.animate {
-    animation: shake 0.5s;
+.card:active {
+    transform: scale(0.9);
 }
 
 .imgContainer > img {
